@@ -9,9 +9,9 @@ const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "1f2a63f9-db4b-43d8-ab3d-4946ce98b41f");
+        formData.append("access_key", "d443b0c0-3174-4626-974b-1686fe759434");
     
-        const object = Object.fromEntries(formData);
+        const object = Object.fromEntries(formData);  
         const json = JSON.stringify(object);
     
         const res = await fetch("https://api.web3forms.com/submit", {
@@ -27,6 +27,7 @@ const Contact = () => {
           alert(res.message)
           
         }
+        event.target.reset();
     };
   return (
     <div id='contact' className="contact">
