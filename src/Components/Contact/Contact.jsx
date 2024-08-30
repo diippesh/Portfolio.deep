@@ -8,8 +8,9 @@ const Contact = () => {
     const onSubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
-    
-        formData.append("access_key", "d443b0c0-3174-4626-974b-1686fe759434");
+        const key = import.meta.env.VITE_ACCESS_KEY
+       
+        formData.append("access_key",key);
     
         const object = Object.fromEntries(formData);  
         const json = JSON.stringify(object);

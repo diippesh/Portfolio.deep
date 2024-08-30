@@ -19,7 +19,7 @@ const MyWork = () => {
             </div>
             <div className="mywork-container">
                 {mywork_data.slice(0, 3).map((work, index) => (
-                    <div>
+                    <div key={index}>
 
                         <a href="#" key={index}>
                             <img src={work.w_img} alt={`work-${index}`} />
@@ -30,7 +30,7 @@ const MyWork = () => {
                     </div>
                 ))}
                 {showMore && mywork_data.slice(3).map((work, index) => (
-                    <div>
+                    <div key={index}>
                         <a href="#" key={index + 3}>
                             <img src={work.w_img} alt={`work-${index + 3}`} />
                         </a>

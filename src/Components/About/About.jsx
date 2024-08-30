@@ -52,19 +52,19 @@ function About() {
             </div>
             <div className="about-achievements">
                 <h2>Me and MyTech Stack</h2>
-                <div class="rightSkillContainer">
-                    <img src={htmlimg} alt="" class="skillsLogo" />
-                    <img src={cssimg} alt="" class="skillsLogo" />
-                    <img src={jsimg} alt="" class="skillsLogo" />
-                    <img src={reactimg} alt="" class="skillsLogo" />
-                    <img src={nodejsimg} alt="" class="skillsLogo" />
-                    <img src={reduximg} alt="" class="skillsLogo" />
-                    <img src={tailwindimg} alt="" class="skillsLogo" />
-                    <img src={bootstrapimg} alt="" class="skillsLogo" />
-                    <img src={expressimg} alt="" class="skillsLogo" />
-                    <img src={gitimg} alt="" class="skillsLogo" />
-                    <img src={githubimg} alt="" class="skillsLogo" />
-                    <img src={mongodbimg} alt="" class="skillsLogo" />
+                <div className="rightSkillContainer">
+                    <img src={htmlimg} alt="" className="skillsLogo" />
+                    <img src={cssimg} alt="" className="skillsLogo" />
+                    <img src={jsimg} alt="" className="skillsLogo" />
+                    <img src={reactimg} alt="" className="skillsLogo" />
+                    <img src={nodejsimg} alt="" className="skillsLogo" />
+                    <img src={reduximg} alt="" className="skillsLogo" />
+                    <img src={tailwindimg} alt="" className="skillsLogo" />
+                    <img src={bootstrapimg} alt="" className="skillsLogo" />
+                    <img src={expressimg} alt="" className="skillsLogo" />
+                    <img src={gitimg} alt="" className="skillsLogo" />
+                    <img src={githubimg} alt="" className="skillsLogo" />
+                    <img src={mongodbimg} alt="" className="skillsLogo" />
                 </div>
 
 
