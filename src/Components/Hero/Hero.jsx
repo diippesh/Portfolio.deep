@@ -20,7 +20,9 @@ function Hero() {
         <p>I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer. </p>
         <div className="hero-action">
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
-            <div className="hero-resume">My Resume</div>
+            <div className="hero-resume">
+                <a href="/resume.pdf" download="My_Resume.pdf">My Resume</a>
+            </div>
         </div>
     </div>
   )
