@@ -4,6 +4,8 @@ import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
+import linkedIN from '../../assets/linkedIN.png'
+import github from '../../assets/github.png'
 const Contact = () => {
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -52,6 +54,15 @@ const Contact = () => {
                     <div className="contact-detail">
                         <img src={location_icon} alt="" />
                         <p>Indore, Madhya Pradesh, India</p>    
+                    </div>
+                    <div className="contact-detail">
+                        <img src={github} alt="" />
+                        <p>Github</p>    
+                    </div>
+                    <div className="contact-detail">
+                    
+                        <img src={linkedIN} alt="" />
+                        <p>LinkedIN</p>    
                     </div>
                 </div>
             </div>

@@ -10,37 +10,43 @@ const mywork_data = [
         w_no:4,
         w_name:"Web design",
         w_img:project4_img,
-         w_desc:"Tiffin Service : Tiffin Delivery App"
+         w_desc:"Tiffin Service : Tiffin Delivery App",
+         w_link:'https://the-tiffin-wala.vercel.app/',
     },
     {
         w_no:5,
         w_name:"Web design",
         w_img:project5_img,
-         w_desc:"Dream Homes : Real Estate Website"
+        w_desc:"Dream Homes : Real Estate Website",
+        w_link:'https://dream-homes-gh37.onrender.com/'
     },
     {
         w_no:6,
         w_name:"Web design",
         w_img:project6_img,
-         w_desc:"Cash Flow Minimization : Expense Tracker"
+        w_desc:"Cash Flow Minimization : Expense Tracker",
+        w_link:'https://cashflow-minimizer.vercel.app/'
     },
     {
         w_no:1,
         w_name:"Web design",
         w_img:project1_img,
-        w_desc:"Study Notion : EdTech Platform"
+        w_desc:"Study Notion : EdTech Platform",
+        w_link:'#'
     },
     {
         w_no:2,
         w_name:"Web design",
         w_img:project2_img,
-        w_desc:"WanderLust : Travel Blog"
+        w_desc:"WanderLust : Travel Blog",
+        w_link:'#'
     },
     {
         w_no:3,
         w_name:"Web design",
         w_img:project3_img,
-         w_desc:"My Portfolio"
+        w_desc:"My Portfolio",
+        w_link:'#'
     },
   
  

@@ -21,7 +21,7 @@ const MyWork = () => {
                 {mywork_data.slice(0, 3).map((work, index) => (
                     <div key={index}>
 
-                        <a href="#" key={index}>
+                        <a href={work.w_link} key={index}>
                             <img src={work.w_img} alt={`work-${index}`} />
                         </a>
                         <p className='myWorkDesc'>
