@@ -166,14 +166,26 @@ function App() {
           </div>
           <div className="project-grid">
             {projects.map((project) => (
-              <article className="project-card" key={project.number}>
+              <article
+                className="project-card"
+                key={project.number}
+                role="link"
+                tabIndex={0}
+                onClick={() => window.open('https://github.com/diippesh', '_blank', 'noopener,noreferrer')}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault()
+                    window.open('https://github.com/diippesh', '_blank', 'noopener,noreferrer')
+                  }
+                }}
+              >
                 <div className="project-top"><span>{project.number}</span><span>{project.type}</span></div>
                 <h2>{project.title}</h2>
                 <p>{project.description}</p>
                 <div className="project-details">{project.details.map((detail) => <span key={detail}>↳ {detail}</span>)}</div>
                 <div className="stack">
                   {project.stack.map((tech) => <span key={tech}>{tech}</span>)}
-                  {project.link && <a className="project-link" href={project.link} target="_blank" rel="noreferrer">View project ↗</a>}
+                  {project.link && <a className="project-link" href={project.link} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()}>View project ↗</a>}
                 </div>
               </article>
             ))}
